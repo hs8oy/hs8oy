@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background: #111;
+	height: 100vh; 
+}
+.wrapper span {
+	position: fixed;
+	bottom: -180px;
+	height: 50px;
+	width: 50px;
+	z-index: -1;
+	background-color: #18191f;
+	box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+	animation: animate 10s linear infinite;
+}
+.wrapper span:nth-child(1) {
+	left: 60px;
+	animation-delay: 0.6s;
+}
+.wrapper span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	width: 60px;
+	height: 60px;
+}
+.wrapper span:nth-child(3) {
+	left: 20%;
+	animation-delay: 2s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.wrapper span:nth-child(4) {
+	left: 30%;
+	animation-delay: 5s;
+	width: 80px;
+	height: 80px;
+}
+.wrapper span:nth-child(5) {
+	left: 40%;
+	animation-delay: 1s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;}
+.wrapper span:nth-child(6) {
+	left: 50%;
+	animation-delay: 7s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.wrapper span:nth-child(7) {
+	left: 60%;
+	animation-delay: 6s;
+	width: 100px;
+	height: 100px;
+    
+}
+.wrapper span:nth-child(8) {
+	left: 70%;
+	animation-delay: 8s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+.wrapper span:nth-child(9) {
+	left: 80%;
+	animation-delay: 6s;
+	width: 90px;
+	height: 90px;
+}
+.wrapper span:nth-child(10) {
+	left: 90%;
+	animation-delay: 4s;
+    box-shadow: 0 0 50px #ba181b, 0 0 100px #ba181b, 0 0 150px #ba181b, 0 0 200px #ba181b;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		opacity: .7;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    margin: 8px 0;
+    transition: 0.5s ease;
+}
+
+
+.hhhe {
+    background-color: #1f293d;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    height: 65%;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.in {
+    transition: 0.5s ease;
+}
+
+.in:hover {
+    background-color: #dd2a7b;
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+}
+
+.fc {
+    transition: 0.5s ease;
+}
+
+.fc:hover {
+    background-color: rgb(8, 47, 223);
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+}
+
+.tw {
+    transition: 0.5s ease;
+}
+
+.tw:hover {
+
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+
+}
+
+.sn {
+    transition: 0.5s ease;
+}
+
+.sn:hover {
+    background-color: rgb(238, 255, 5);
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+}
+
+.ti {
+    transition: 0.5s ease;
+}
+
+.ti:hover {
+    background-color: rgb(255, 0, 255);
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+
+}
+
+.tt {
+    transition: 0.5s ease;
+}
+
+.tt:hover {
+    background-color: rgb(0, 110, 255);
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+
+}
+
+.dd {
+    transition: 0.5s ease;
+}
+
+.dd:hover {
+
+    background-color: rgb(45, 104, 180);
+    transform: scale(1.1);
+    border-radius: 5px;
+    padding: 6px;
+    text-shadow: 1px 4px 2px rgb(0, 0, 0);
+
+}
+
+h3 {
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 10px;
+
+
+
+
+}
+
+.r4 {
+    width: 100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+
+
+}
+
+.lom {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: #1f293d;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 3px 10px;
+    margin: 5px auto;
+    transition: 0.5s ease;
+}
+
+.lom:hover {
+    background-color: rgb(30, 30, 80);
+    transform: scale(1.1);
+}
+
+.trt {
+    margin: 1px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
