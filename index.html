@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hs8oy</title>
+    <!-- link the cdn font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- link the css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link the font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- first header -->
+    <header>
+        <div class="he">
+            <div><img title="هلا  وهلاوين" src="imgs/logo.jpg"></div>
+            <div class="su">
+                <a href="mailto:hassankrcoil@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/hs8oy"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/hs8oy?igshid=NTc4MTIwNjQ2YQ%3D%3D"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#" id="toggle-lang"><h1 class="EN">EN</h1></a>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <section>
+        <div class="d">
+            <div class="d1">
+                <p id="location"><i class="fa-solid fa-location-dot"></i> العراق, كركوك</p>
+                <h1 id="engineer">اني مهندس <strong>صناعات</strong>.</h1>
+                <h3 id="web-dev">احب تخصص تطوير واجهات الويب.</h3>
+            </div>
+            <div class="d2">
+                <h1 id="tech">التقنيات الي أعرفها:</h1>
+                <div class="hcj">
+                    <img title="CSS" alt="css" src="imgs/css.svg">
+                    <img title="HTML" alt="html" src="imgs/html.svg">
+                    <img title="JAVASCRIPT" alt="javascript" src="imgs/javascript.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d k1">
+            <div class="d1 k">
+                <h1 id="experience">الـخـبـرات</h1>
+            </div>  
+            <div class="r">
+                <div class="d1 t">
+                    <div class="ig">
+                        <img src="imgs/1.jpg" alt="">
+                    </div>
+                    <div>
+                        <h1 id="personal-site">موقع شخصي</h1>
+                    </div>
+                    <div class="hcu">
+                        <div>
+                            <img alt="css" src="imgs/css.svg">
+                            <img alt="html" src="imgs/html.svg">
+                        </div>
+                        <div>
+                            <a title="يلا نشوف" href="https://hs8oy.github.io/1/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="d1 t">
+                    <div class="ig">
+                        <a href="https://hs8oy.github.io/BDR/"><h3 id="bdr">موقع بدر</h3></a>
+                        <a href="https://hs8oy.github.io/ZXT/ZXT-AR/index-Ar.html"><h3 id="zxt">ZXT</h3></a>
+                        <a href="https://hs8oy.github.io/2/"><h3 id="assistant-site">موقع مساعد</h3></a>
+                    </div>
+                    <div class="ig">
+                        <a href="https://hs8oy.github.io/money/"><h3 id="budget">الميزانية الشخصية</h3></a>
+                    </div>
+                </div> 
+            </div>
+        </div>        
+    </section>  
+
+    <section>
+        <div class="d k1">
+            <div class="d1 k rt">
+                <h1 id="quote">انت تفكر واني اطبق <i class="fa-solid fa-face-smile"></i></h1>
+            </div> 
+        </div>
+    </section>
+
+    <script>
+        const toggleLang = document.getElementById('toggle-lang');
+let isArabic = true;
+
+toggleLang.addEventListener('click', () => {
+    document.documentElement.lang = isArabic ? 'en' : 'ar';
+    document.documentElement.dir = isArabic ? 'ltr' : 'rtl';
+
+    document.getElementById('location').innerHTML = isArabic ? '<i class="fa-solid fa-location-dot"></i> Iraq, Kirkuk' : '<i class="fa-solid fa-location-dot"></i> العراق, كركوك';
+    document.getElementById('engineer').innerHTML = isArabic ? 'I am an <strong>Industrial</strong> Engineer.' : 'اني مهندس <strong>صناعات</strong>.';
+    document.getElementById('web-dev').textContent = isArabic ? 'I love web development.' : 'احب تخصص تطوير واجهات الويب.';
+    document.getElementById('tech').textContent = isArabic ? 'Technologies I know:' : 'التقنيات الي أعرفها:';
+    document.getElementById('experience').textContent = isArabic ? 'Experience' : 'الـخـبـرات';
+    document.getElementById('personal-site').textContent = isArabic ? 'Personal Website' : 'موقع شخصي';
+    document.getElementById('bdr').textContent = isArabic ? 'BDR Website' : 'موقع بدر';
+    document.getElementById('zxt').textContent = isArabic ? 'ZXT Website' : 'ZXT';
+    document.getElementById('assistant-site').textContent = isArabic ? 'Assistant Website' : 'موقع مساعد';
+    document.getElementById('budget').textContent = isArabic ? 'Personal Budget' : 'الميزانية الشخصية';
+    document.getElementById('quote').innerHTML = isArabic ? 'You think, I execute <i class="fa-solid fa-face-smile"></i>' : 'انت تفكر واني اطبق <i class="fa-solid fa-face-smile"></i>';
+
+    // تحديث النص في زر اللغة
+    toggleLang.textContent = isArabic ? 'AR' : 'EN';
+
+    // تبديل اللغة
+    isArabic = !isArabic;
+});
+
+    </script>
+</body>
+</html>
