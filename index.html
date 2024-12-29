@@ -26,7 +26,7 @@
                 <a href="mailto:hassankrcoil@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                 <a href="https://github.com/hs8oy"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.instagram.com/hs8oy?igshid=NTc4MTIwNjQ2YQ%3D%3D"><i class="fa-brands fa-square-instagram"></i></a>
-                <a href="#" id="toggle-lang"><h1 class="EN">EN</h1></a>
+               
             </div>
         </div>
     </header>
@@ -95,33 +95,6 @@
         </div>
     </section>
 
-    <script>
-        const toggleLang = document.getElementById('toggle-lang');
-let isArabic = true;
 
-toggleLang.addEventListener('click', () => {
-    document.documentElement.lang = isArabic ? 'en' : 'ar';
-    document.documentElement.dir = isArabic ? 'ltr' : 'rtl';
-
-    document.getElementById('location').innerHTML = isArabic ? '<i class="fa-solid fa-location-dot"></i> Iraq, Kirkuk' : '<i class="fa-solid fa-location-dot"></i> العراق, كركوك';
-    document.getElementById('engineer').innerHTML = isArabic ? 'I am an <strong>Industrial</strong> Engineer.' : 'اني مهندس <strong>صناعات</strong>.';
-    document.getElementById('web-dev').textContent = isArabic ? 'I love web development.' : 'احب تخصص تطوير واجهات الويب.';
-    document.getElementById('tech').textContent = isArabic ? 'Technologies I know:' : 'التقنيات الي أعرفها:';
-    document.getElementById('experience').textContent = isArabic ? 'Experience' : 'الـخـبـرات';
-    document.getElementById('personal-site').textContent = isArabic ? 'Personal Website' : 'موقع شخصي';
-    document.getElementById('bdr').textContent = isArabic ? 'BDR Website' : 'موقع بدر';
-    document.getElementById('zxt').textContent = isArabic ? 'ZXT Website' : 'ZXT';
-    document.getElementById('assistant-site').textContent = isArabic ? 'Assistant Website' : 'موقع مساعد';
-    document.getElementById('budget').textContent = isArabic ? 'Personal Budget' : 'الميزانية الشخصية';
-    document.getElementById('quote').innerHTML = isArabic ? 'You think, I execute <i class="fa-solid fa-face-smile"></i>' : 'انت تفكر واني اطبق <i class="fa-solid fa-face-smile"></i>';
-
-    // تحديث النص في زر اللغة
-    toggleLang.textContent = isArabic ? 'AR' : 'EN';
-
-    // تبديل اللغة
-    isArabic = !isArabic;
-});
-
-    </script>
 </body>
 </html>
