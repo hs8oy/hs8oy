@@ -1,1 +1,37 @@
-function _0x6161(_0x16fb1a,_0x5a9301){var _0x1c2862=_0x1c28();return _0x6161=function(_0x616154,_0x344a71){_0x616154=_0x616154-0xd0;var _0x1f3aa5=_0x1c2862[_0x616154];return _0x1f3aa5;},_0x6161(_0x16fb1a,_0x5a9301);}var _0x243c9c=_0x6161;(function(_0x4c63d8,_0x3f1331){var _0x3029ce=_0x6161,_0x29a285=_0x4c63d8();while(!![]){try{var _0x339378=-parseInt(_0x3029ce(0xd7))/0x1+parseInt(_0x3029ce(0xde))/0x2*(parseInt(_0x3029ce(0xd6))/0x3)+-parseInt(_0x3029ce(0xd9))/0x4*(parseInt(_0x3029ce(0xd5))/0x5)+-parseInt(_0x3029ce(0xda))/0x6*(-parseInt(_0x3029ce(0xd4))/0x7)+parseInt(_0x3029ce(0xd1))/0x8+-parseInt(_0x3029ce(0xdc))/0x9+-parseInt(_0x3029ce(0xd8))/0xa;if(_0x339378===_0x3f1331)break;else _0x29a285['push'](_0x29a285['shift']());}catch(_0x2a405f){_0x29a285['push'](_0x29a285['shift']());}}}(_0x1c28,0x79437),ScrollReveal()['reveal'](_0x243c9c(0xdb),{'duration':0x7d0,'origin':_0x243c9c(0xdd),'distance':_0x243c9c(0xd2),'delay':0x64}),ScrollReveal()[_0x243c9c(0xd3)]('.c',{'duration':0x7d0,'origin':_0x243c9c(0xdd),'distance':_0x243c9c(0xd0),'delay':0x3e8}),ScrollReveal()[_0x243c9c(0xd3)]('.h',{'duration':0x7d0,'origin':_0x243c9c(0xdd),'distance':'10px','delay':0x5dc}),ScrollReveal()[_0x243c9c(0xd3)]('.j',{'duration':0x7d0,'origin':'bottom','distance':_0x243c9c(0xd0),'delay':0x7d0}));function _0x1c28(){var _0x417cda=['6081608ndCskL','80px','reveal','213542jftYyV','26895PAHKgb','3PWWcSF','481132SVfcfp','2826400PUbPIU','488vlTCId','66pIOwZM','section','49257sOGsbA','bottom','1652822VDPKVI','10px'];_0x1c28=function(){return _0x417cda;};return _0x1c28();}
+// إخفاء شاشة التحميل وعرض المحتوى
+window.addEventListener('load', () => {
+    const loadingScreen = document.getElementById('loading-screen');
+    const content = document.getElementById('content');
+    
+    loadingScreen.style.display = 'none';
+    content.style.display = 'block';
+  });
+  
+
+ScrollReveal().reveal('section', {
+    duration: 2000, // مدة الحركة
+    origin: 'bottom', // اتجاه الحركة
+    distance: '80px', // المسافة
+    delay: 100 // التأخير
+});
+
+ScrollReveal().reveal('.c', {
+    duration: 2000, // مدة الحركة
+    origin:"bottom",
+    distance: '10px', // المسافة
+    delay: 1000 // التأخير
+});
+
+ScrollReveal().reveal('.h', {
+    duration: 2000, // مدة الحركة
+    origin: 'bottom', // اتجاه الحركة
+    distance: '10px', // المسافة
+    delay: 1500 // التأخير
+});
+
+ScrollReveal().reveal('.j', {
+    duration: 2000, // مدة الحركة
+    origin: 'bottom', // اتجاه الحركة
+    distance: '10px', // المسافة
+    delay: 2000 // التأخير
+});
