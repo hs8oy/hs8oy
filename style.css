@@ -92,12 +92,7 @@ img {
   transform: scale(1.1);
 }
 
-.EN {
-  font-family: "Rubik Vinyl", serif;
-  font-weight: 400;
-  font-size: 24px;
-  margin-right: 14px;
-}
+
 /*  */
 section {
   display: flex;
@@ -105,7 +100,7 @@ section {
   margin: 50px 0;
   padding: 10px;
   font-family: "Zain", serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 .fa-location-dot {
   font-size: 18px;
@@ -202,6 +197,8 @@ section {
 .rt h1 i {
   font-size: 30px;
 }
+
+
 
 @media only screen and (max-width: 1220px) {
   header {
@@ -361,9 +358,7 @@ section {
   .su a {
     font-size: 20px;
   }
-  .EN {
-    font-size: 20px;
-  }
+ 
 
   section {
     margin: 25px 0px;
