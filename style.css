@@ -327,6 +327,7 @@ section {
   .t img {
     width: 330px;
     border-radius: 9px;
+    
   }
   .hcu {
     display: flex;
@@ -380,6 +381,7 @@ section {
   .t {
     width: 250px;
     margin: 10px 0;
+    
   }
   .t img {
     width: 230px;
