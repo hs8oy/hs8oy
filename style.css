@@ -166,6 +166,9 @@ section {
   width: 430px;
   border-radius: 9px;
 }
+.t h3{
+  font-size: 19px;
+}
 .hcu {
   display: flex;
   align-items: center;
